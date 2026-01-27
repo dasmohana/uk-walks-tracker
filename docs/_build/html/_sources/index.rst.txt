@@ -12,3 +12,4 @@ UK Walks Tracker
    journals/fife-coast-path/index
    journals/john-muir-way/index
    journals/northumberland-coast-path/index
+   journals/union-canal/index

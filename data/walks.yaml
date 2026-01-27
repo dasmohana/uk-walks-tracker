@@ -8,3 +8,6 @@ walks:
 - name: Dunstanburgh To Alnmouth
   gpx: gpx/northumberland-coast-path/dunstanburgh-to-alnmouth.gpx
   journal: journals/northumberland-coast-path/dunstanburgh-to-alnmouth.md
+- name: Edinburgh To Ratho
+  gpx: gpx/union-canal/edinburgh-to-ratho.gpx
+  journal: journals/union-canal/edinburgh-to-ratho.md

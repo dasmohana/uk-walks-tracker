@@ -118,10 +118,17 @@ for walk in data.get("walks", []):
     # Parse GPX
     with open(gpx_path, "r", encoding="utf-8") as gpx_file:
         gpx = gpxpy.parse(gpx_file)
+        
+        # Extract coordinates from tracks
         for track in gpx.tracks:
             for segment in track.segments:
                 for point in segment.points:
                     coords.append([point.latitude, point.longitude])
+        
+        # Extract coordinates from routes (fallback if no tracks)
+        for route in gpx.routes:
+            for point in route.points:
+                coords.append([point.latitude, point.longitude])
 
     if not coords:
         continue
