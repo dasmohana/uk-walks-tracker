@@ -1,0 +1,10 @@
+walks:
+- name: Aberdour To Kirkcaldy
+  gpx: gpx/fife-coast-path/aberdour-to-kirkcaldy.gpx
+  journal: journals/fife-coast-path/aberdour-to-kirkcaldy.md
+- name: South Queensferry To Boness
+  gpx: gpx/john-muir-way/south-queensferry-to-boness.gpx
+  journal: journals/john-muir-way/south-queensferry-to-boness.md
+- name: Dunstanburgh To Alnmouth
+  gpx: gpx/northumberland-coast-path/dunstanburgh-to-alnmouth.gpx
+  journal: journals/northumberland-coast-path/dunstanburgh-to-alnmouth.md
