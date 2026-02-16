@@ -2,6 +2,7 @@ import yaml
 import folium
 import gpxpy
 from pathlib import Path
+from create_journals import create_journals
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 WALKS_YAML = BASE_DIR / "data" / "walks.yaml"
@@ -173,3 +174,13 @@ for walk in data.get("walks", []):
 map_out = MAP_DIR / "index.html"
 m.save(map_out)
 print(f"\n✅ Map saved to {map_out}")
+
+# ==============================================================================
+# Auto-create journals for any GPX files without corresponding markdown files
+# ==============================================================================
+
+print("\n" + "=" * 70)
+print("Creating missing journal files...")
+print("=" * 70)
+
+create_journals()

@@ -2,3 +2,5 @@ folium
 PyYAML
 gpxpy
 geopy
+sphinx
+myst-parser
